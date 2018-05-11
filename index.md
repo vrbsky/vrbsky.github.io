@@ -7,4 +7,4 @@ This page has been created recently, more content will be added in the following
 ### Quick Links
 * [GitHub repo of sofware project for my master's thesis](https://github.com/vrbsky/network-model)
 * [My LinkedIn profile](https://www.linkedin.com/in/vrbsky/)
-* [My Resume / CV in pdf](/media/pdf/Vrbsky_ResumeCV.pdf)
+* [My Resume / CV in pdf](https://vrbsky.github.io/media/pdf/Vrbsky_ResumeCV.pdf)
