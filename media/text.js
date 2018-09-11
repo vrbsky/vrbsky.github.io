@@ -29,7 +29,7 @@
       document.getElementById('aGithubRepo').innerHTML = 'github.com/vrbsky';
       document.getElementById('aGithubRepo').href = 'https://www.github.com/vrbsky';
       document.getElementById('aResume').innerHTML = 'Resume / CV';
-      document.getElementById('aResume').href = 'media/pdf/Vrbsky_ResumeCV.pdf';
+      document.getElementById('aResume').href = 'media/pdf/Vrbsky_Resume.pdf';
       document.getElementById('pSubHeadline').innerHTML = 'I am a Software Developer with passion for Artificial Intelligence<br/>and innovations through software in general.';
       document.getElementById('aHeadlineContinue').innerHTML = 'Continue';
       // document.getElementById('pSubHeadline').innerHTML = 'I am a Software Developer with passion for Artificial Intelligence and software innovations in general!';
@@ -37,7 +37,7 @@
       document.getElementById('h2DownloadResume').innerHTML = 'Download my Resume / CV in .pdf';
 
       document.getElementById('aDownloadResume').innerHTML = 'Download Now!';
-      document.getElementById('aDownloadResume').href = 'media/pdf/Vrbsky_ResumeCV.pdf';
+      document.getElementById('aDownloadResume').href = 'media/pdf/Vrbsky_Resume.pdf';
 
       // document.getElementById('').innerHTML = '';
 
