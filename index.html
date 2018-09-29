@@ -31,23 +31,23 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top" id="aPageTop">temp</a>
+        <a class="navbar-brand js-scroll-trigger" style="font-size: 2rem" href="#page-top" id="aPageTop"></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
+            </li> -->
+            <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" target="_blank" id="aResume">Resume / CV</a>
+              <a class="nav-link" target="_blank" id="aResume">Resume</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -62,19 +62,22 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
+              <p id="headlinePreName" style="font-size: 8pt;"></p>
+              <p style="font-size: 30pt; font-weight: 600; letter-spacing: 4pt" id="headlineName">
+              <p id="headlinePostName" style="font-size: 8pt;"></p>
               <strong id="headline"></strong>
             </h1>
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
             <p class="text-faded mb-5" id=pSubHeadline></p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#downloadResume" id="aHeadlineContinue"></a> <!-- TODO - return to href="#about" when implemented -->
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio" id="aHeadlineContinue"></a> <!-- TODO - return to href="#about" when implemented -->
           </div>
         </div>
       </div>
     </header>
 
-    <!-- 
+<!-- 
     <section class="bg-primary" id="about">
       <div class="container">
         <div class="row">
@@ -130,14 +133,15 @@
         </div>
       </div>
     </section>
-
+-->
     <section class="p-0" id="portfolio">
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
+          
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="media/img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="media/img/portfolio/thumbnails/1.jpg" alt="">
-              <div class="portfolio-box-caption">
+            <a class="portfolio-box"> <!-- href=""> -->
+              <img class="img-fluid" src="media/img/portfolio/thumbnails/grey1.png" alt="">
+              <!-- <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
                     Category
@@ -146,13 +150,30 @@
                     Project Name
                   </div>
                 </div>
+              </div> -->
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="TF.js-LinearRegression">
+              <img class="img-fluid" src="media/img/portfolio/thumbnails/linearRegression.png" alt="">
+              <div class="portfolio-box-caption">
+                <div class="portfolio-box-caption-content">
+                  <div class="project-category text-faded">
+                    <p id="project2category">
+                  </div>
+                  <div class="project-name">
+                    <p id="project2name">
+                  </div>
+                </div>
               </div>
             </a>
           </div>
+
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="media/img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="media/img/portfolio/thumbnails/2.jpg" alt="">
-              <div class="portfolio-box-caption">
+            <a class="portfolio-box"> <!-- href=""> -->
+              <img class="img-fluid" src="media/img/portfolio/thumbnails/grey1.png" alt="">
+              <!-- <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
                     Category
@@ -161,24 +182,10 @@
                     Project Name
                   </div>
                 </div>
-              </div>
+              </div> -->
             </a>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="media/img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="media/img/portfolio/thumbnails/3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
+<!--          
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="media/img/portfolio/fullsize/4.jpg">
               <img class="img-fluid" src="media/img/portfolio/thumbnails/4.jpg" alt="">
@@ -224,14 +231,15 @@
               </div>
             </a>
           </div>
+-->
         </div>
       </div>
     </section>
-     -->
 
     <section class="bg-dark text-white" id="downloadResume">
       <div class="container text-center">
         <h2 class="mb-4" id="h2DownloadResume"></h2>
+        <hr class="my-4">
         <a class="btn btn-light btn-xl sr-button" target="_blank" id="aDownloadResume"></a>
       </div>
     </section>
