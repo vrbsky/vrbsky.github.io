@@ -24,6 +24,15 @@
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
 
+    <!-- Some say this is necessary to have a favicon
+    <link rel="apple-touch-icon" sizes="180x180" href="media/img/favicon/1/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="media/img/favicon/1/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="media/img/favicon/1/favicon-16x16.png">
+    <link rel="manifest" href="media/img/favicon/1/site.webmanifest">
+    <link rel="mask-icon" href="media/img/favicon/1/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    -->
   </head>
 
   <body id="page-top">
@@ -243,6 +252,15 @@
         <h2 class="mb-4" id="h2DownloadResume"></h2>
         <hr class="my-4">
         <a class="btn btn-light btn-xl sr-button" target="_blank" id="aDownloadResume"></a>
+        &emsp;
+        <a class="btn btn-light btn-xl sr-button" target="_blank" id="aShowHideResume"></a>
+        <br>
+        <br>
+        <div id=divResumeIframe style="display:none">
+          <object id="pdfObjectIframe" data="url_to_pdf" type="application/pdf" width="100%" height="710"> <!-- 1135 -->
+            <iframe src="https://docs.google.com/viewer?url=your_url_to_pdf&embedded=true" ></iframe>
+          </object>
+        </div>
       </div>
     </section>
 
