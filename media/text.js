@@ -13,10 +13,20 @@
         }
       }
 
+      var myEmail = 'ladislav.vrbsky@gmail.com';
+      var myPhoneBR = '+55 (91) 99388-7307';
+      var myResumePath = 'media/pdf/Vrbsky_Resume.pdf';
+      var myFullName = 'Ladislav Vrbsky';
+
+      var blackColorUsed = "#212529";
+
+
+      document.getElementById('title').innerHTML = myFullName;
+
       addLoadEvent(function() {  
       document.getElementById('aPageTop').innerHTML = '<i class="fa fa-home"></i>';
       document.getElementById('headlinePreName').innerHTML = 'My name is';
-      document.getElementById('headlineName').innerHTML = 'Ladislav Vrbsky';
+      document.getElementById('headlineName').innerHTML = myFullName;
       document.getElementById('headlinePostName').innerHTML = 'and';
       document.getElementById('headline').innerHTML = 'I <i class="fa fa-heart"></i> AI';
       
@@ -26,9 +36,9 @@
       
       document.getElementById('contactHeading').innerHTML = 'Get In Touch!';
       document.getElementById('contactDescr').innerHTML = 'Interested to know more about me and my work? ... collaborate? ... hire?<br/>You can reach me through the following means.';
-      document.getElementById('aEmail').innerHTML = 'ladislav.vrbsky@gmail.com';
-      document.getElementById('aEmail').href = 'mailto:ladislav.vrbsky@gmail.com';
-      document.getElementById('pPhoneNr').innerHTML = '+55 (91) 99388-7307';
+      document.getElementById('aEmail').innerHTML = myEmail;
+      document.getElementById('aEmail').href = 'mailto:' + myEmail;
+      document.getElementById('pPhoneNr').innerHTML = myPhoneBR;
       document.getElementById('aLinkedin').innerHTML = 'linkedin.com/in/vrbsky';
       document.getElementById('aLinkedin').href = 'https://www.linkedin.com/in/vrbsky';
       // document.getElementById('aGithubIO').innerHTML = 'vrbsky.github.io';
@@ -42,12 +52,25 @@
       // document.getElementById('pSubHeadline').innerHTML = 'I am a Software Developer with passion for Artificial Intelligence and software innovations in general!';
       // document.getElementById('pSubHeadline').innerHTML = 'I am a Software Developer with passion for Artificial Intelligence and software innovations in general!';
       document.getElementById('h2DownloadResume').innerHTML = 'Download my Resume in .pdf';
-
       document.getElementById('aDownloadResume').innerHTML = 'Download';
-      document.getElementById('aDownloadResume').href = 'media/pdf/Vrbsky_Resume.pdf';
+      document.getElementById('aDownloadResume').href = myResumePath;
+
+      document.getElementById('aShowHideResume').innerHTML = 'Show Here';
+      document.getElementById('aShowHideResume').style.color = blackColorUsed;
+      document.getElementById('aShowHideResume').onclick = function showHide() {
+        var x = document.getElementById('divResumeIframe');
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          document.getElementById('aShowHideResume').innerHTML = 'Hide';
+        } else {
+          x.style.display = "none";
+          document.getElementById('aShowHideResume').innerHTML = 'Show Here';
+        }
+      };
+      document.getElementById('pdfObjectIframe').data = myResumePath;
 
       document.getElementById('project1category').innerHTML = 'Publications';
-      document.getElementById('project1name').innerHTML = 'See my published work, including BS and MS thesis';
+      document.getElementById('project1name').innerHTML = 'See my published work, including MS and BS thesis';
       document.getElementById('aProject1').href = 'https://scholar.google.com.br/citations?hl=en&user=vyvNl6YAAAAJ';
       document.getElementById('imgProject1').src = 'media/img/portfolio/thumbnails/publications.png';
 //      document.getElementById('imgProject1').style = 'padding: 13% 33%'; // 650 x 350 vs 128 x 128
@@ -60,5 +83,4 @@
 
       // document.getElementById('').innerHTML = '';
 
-      document.getElementById('title').innerHTML = 'Ladislav Vrbsky';
         });
