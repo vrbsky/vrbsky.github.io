@@ -31,8 +31,8 @@
       document.getElementById('headline').innerHTML = 'I <i class="fa fa-heart"></i> AI';
       
       document.getElementById('aboutHeading').innerHTML = "About";
-      document.getElementById('about-par1').innerHTML = 'I am a Software Developer with passion for Artificial Intelligence<br/>and innovations through software in general. I cover most of my technical bio in my resume (below), as well as on my LinkedIn profile.';
-      document.getElementById('about-par2').innerHTML = "Let's get right into some examples of my work. Check out my portfolio and resume below, <br>as well as the links in the contact section.";
+      document.getElementById('about-par1').innerHTML = 'I am a Machine Learning Developer / Data Scientist and a former Software Engineer. I have a passion for Artificial Intelligence, for leveraging the power of algorithms, as well as for innovations through software in general. I cover most of my technical bio in my resume (below), as well as on my LinkedIn profile.';
+      document.getElementById('about-par2').innerHTML = "Let's get right into some examples of my work. Check out my portfolio and resume below, as well as the links in the contact section.";
       
       document.getElementById('contactHeading').innerHTML = 'Get In Touch!';
       document.getElementById('contactDescr').innerHTML = 'Interested to know more about me and my work? ... collaborate? ... hire?<br/>You can reach me through the following means.';
@@ -55,19 +55,19 @@
       document.getElementById('aDownloadResume').innerHTML = 'Download';
       document.getElementById('aDownloadResume').href = myResumePath;
 
-      document.getElementById('aShowHideResume').innerHTML = 'Show Here';
-      document.getElementById('aShowHideResume').style.color = blackColorUsed;
-      document.getElementById('aShowHideResume').onclick = function showHide() {
-        var x = document.getElementById('divResumeIframe');
-        if (x.style.display === "none") {
-          x.style.display = "block";
-          document.getElementById('aShowHideResume').innerHTML = 'Hide';
-        } else {
-          x.style.display = "none";
-          document.getElementById('aShowHideResume').innerHTML = 'Show Here';
-        }
-      };
-      document.getElementById('pdfObjectIframe').data = myResumePath;
+      // document.getElementById('aShowHideResume').innerHTML = 'Show Here';
+      // document.getElementById('aShowHideResume').style.color = blackColorUsed;
+      // document.getElementById('aShowHideResume').onclick = function showHide() {
+      //   var x = document.getElementById('divResumeIframe');
+      //   if (x.style.display === "none") {
+      //     x.style.display = "block";
+      //     document.getElementById('aShowHideResume').innerHTML = 'Hide';
+      //   } else {
+      //     x.style.display = "none";
+      //     document.getElementById('aShowHideResume').innerHTML = 'Show Here';
+      //   }
+      // };
+      // document.getElementById('pdfObjectIframe').data = myResumePath;
 
       document.getElementById('project1category').innerHTML = 'Publications';
       document.getElementById('project1name').innerHTML = 'See my published work, including MS and BS thesis';
