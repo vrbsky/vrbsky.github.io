@@ -15,7 +15,8 @@
 
       var myEmail = 'ladislav.vrbsky@gmail.com';
       var myPhoneBR = '+55 (91) 99388-7307';
-      var myResumePath = 'media/pdf/Vrbsky_Resume.pdf';
+      var myResumePathEng = 'media/pdf/Vrbsky_Resume__eng.pdf';
+      var myResumePathPor = 'media/pdf/Vrbsky_Resume__por.pdf';
       var myFullName = 'Ladislav Vrbsky';
 
       var blackColorUsed = "#212529";
@@ -51,9 +52,11 @@
       document.getElementById('aHeadlineContinue').innerHTML = 'Continue';
       // document.getElementById('pSubHeadline').innerHTML = 'I am a Software Developer with passion for Artificial Intelligence and software innovations in general!';
       // document.getElementById('pSubHeadline').innerHTML = 'I am a Software Developer with passion for Artificial Intelligence and software innovations in general!';
-      document.getElementById('h2DownloadResume').innerHTML = 'Download my Resume in .pdf';
-      document.getElementById('aDownloadResume').innerHTML = 'Download';
-      document.getElementById('aDownloadResume').href = myResumePath;
+      document.getElementById('h2DownloadResume').innerHTML = 'Download my Resume in .pdf / Baixa o meu currículo em .pdf';
+      document.getElementById('aDownloadResumeEng').innerHTML = 'English Version';
+      document.getElementById('aDownloadResumeEng').href = myResumePathEng;
+      document.getElementById('aDownloadResumePor').innerHTML = 'Versão em Português (Beta)';
+      document.getElementById('aDownloadResumePor').href = myResumePathPor;
 
       // document.getElementById('aShowHideResume').innerHTML = 'Show Here';
       // document.getElementById('aShowHideResume').style.color = blackColorUsed;
