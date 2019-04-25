@@ -15,8 +15,8 @@
 
       var myEmail = 'ladislav.vrbsky@gmail.com';
       var myPhoneBR = '+55 (91) 99388-7307';
-      var myResumePathEng = 'media/pdf/Vrbsky_Resume__eng.pdf';
-      var myResumePathPor = 'media/pdf/Vrbsky_Resume__por.pdf';
+      var myResumePathEng = 'media/pdf/Vrbsky_resume.pdf';
+      var myResumePathPor = 'media/pdf/Vrbsky_curriculo.pdf';
       var myFullName = 'Ladislav Vrbsky';
 
       var blackColorUsed = "#212529";
