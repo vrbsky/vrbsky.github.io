@@ -55,7 +55,7 @@
       document.getElementById('h2DownloadResume').innerHTML = 'Download my Resume in .pdf / Baixa o meu currículo em .pdf';
       document.getElementById('aDownloadResumeEng').innerHTML = 'English Version';
       document.getElementById('aDownloadResumeEng').href = myResumePathEng;
-      document.getElementById('aDownloadResumePor').innerHTML = 'Versão em Português (Beta)';
+      document.getElementById('aDownloadResumePor').innerHTML = 'Versão em Português';
       document.getElementById('aDownloadResumePor').href = myResumePathPor;
 
       // document.getElementById('aShowHideResume').innerHTML = 'Show Here';
