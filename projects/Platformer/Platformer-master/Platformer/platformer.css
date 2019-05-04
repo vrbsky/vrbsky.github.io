@@ -1,0 +1,187 @@
+#game-container {
+	position: relative;
+	cursor: none;
+	width: 800px;
+	height: 480px;
+	font-family: 'Exo', sans-serif;
+	color: lime;
+	text-shadow: 1px 1px 2px #080808;
+}
+
+#game {
+  position: absolute;
+  border: solid 1px black;
+  position: relative;
+  width: 800px;
+  height: 480px;
+}
+
+#gui-center {
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+}
+
+#gui-top-left {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	padding: 5px;
+}
+
+#gui-top-left {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	padding: 5px;
+}
+
+#gui-top-leftBelow {
+	position:absolute;
+	top: 60px;
+	left: 0px;
+	padding: 0px;
+}
+
+#gui-top-leftCancel {
+	position:absolute;
+	top: 40px;
+	left: 0px;
+	padding: 25px;
+}
+
+#gui-top-center{
+	position:absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+#gui-top-right {
+	position:absolute;
+	top: 0px;
+	right: 0px;
+	padding: 5px;
+}
+
+#gui-bottom-left {
+	position:absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+#gui-bottom-center{
+	position:absolute;
+	bottom: 0px;
+}
+
+#gui-bottom-right {
+	position:absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.life{
+	width:50px;
+	height:50px;
+}
+
+.splashScreen{
+	position:absolute;
+	top: 0px;
+	width:800px;
+	height:500px;
+}
+
+span.life {
+	display: block;
+	float: left;
+	width: 50px;
+	height: 20px;
+	background-image: url("live.png");
+	background-size: 100px 100px;
+}
+span.jetPack {
+	display: block;
+	float: left;
+	width: 50px;
+	height: 20px;
+	background-image: url("jetPack.png");
+	background-size: 100px 100px;
+}
+span.cancellation {
+	display: block;
+	float: left;
+	width: 50px;
+	height: 50px;
+	background-image: url("cancelimage.png");
+	background-size: 50px 50px;
+}
+
+span.health-background {
+	display: block;
+	width: 200px;
+	height: 10px;
+	margin-top: 5px;
+	padding: 1px;
+	background-color: gray;
+	border: 1px solid black;
+}
+
+span.health-bar {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: lime;
+	
+}
+
+span.shield-background {
+	display: block;
+	width: 200px;
+	height: 10px;
+	margin-top: 5px;
+	padding: 1px;
+	background-color: gray;
+	border: 1px solid black;
+}
+
+span.shield-bar {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: blue;
+	
+}
+
+span.missile-icon {
+	display: block;
+	float: left;
+	width: 50px;
+	height: 20px;
+	background-image: url("helicopter.png");
+	background-position: -105px -80px;
+	background-size: 200px 200px;
+}
+
+.volumeControls{
+	float:right;
+}
+
+#musicControl{
+	height: 30px;
+    width: 80px;
+    font-size: 20px;
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#musicControl:hover { 
+    border: solid 1px black;
+	border-right: solid 1px black;
+	cursor:pointer;
+}

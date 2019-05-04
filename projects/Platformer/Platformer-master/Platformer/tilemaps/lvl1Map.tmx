@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="200" height="10" tilewidth="50" tileheight="50">
+ <tileset firstgid="1" name="baseTileSet" tilewidth="50" tileheight="50">
+  <image source="../tilesets/baseTileSet.png" width="100" height="100"/>
+  <tile id="2">
+   <properties>
+    <property name="portal" value="false"/>
+    <property name="solid" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="5" name="portal" tilewidth="102" tileheight="126">
+  <image source="../tilesets/portal.gif" width="102" height="126"/>
+  <tile id="0">
+   <properties>
+    <property name="portal" value="true"/>
+    <property name="solid" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="6" name="EnemyType1" tilewidth="50" tileheight="50">
+  <image source="../tilesets/EnemyType1.png" width="50" height="50"/>
+  <tile id="0">
+   <properties>
+    <property name="Enemy" value="true"/>
+    <property name="EnemyType" value="1"/>
+    <property name="portal" value="false"/>
+    <property name="solid" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="200" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztl80KwCAMgwWZ7//IO3jpwVl/Uq0zH/QwcJKkdrgQCCGEEHIzURTJPLsFXMTM2UtIIQVioRD7oLD2LyllYeWLZDxmLHVY6fPmWaNlNk7xcgo9Off0p7YXqrfa/vL5i1RYM+sTeVa96LiR03Nt0dbqBeVz9K6FnsmVc1tj5d1To0fLH749rbq8+NsxA5rn3n98VI4j76/qn4e+WGry4NeDhpOLubF21wvmMgbg
+  </data>
+ </layer>
+</map>
