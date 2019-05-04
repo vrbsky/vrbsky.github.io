@@ -33,10 +33,14 @@
       
       document.getElementById('aboutHeading').innerHTML = "About";
       document.getElementById('about-par1').innerHTML = 'I am a Machine Learning Developer / Data Scientist and a former Software Engineer. I have a passion for Artificial Intelligence, for leveraging the power of algorithms, as well as for innovations through software in general. I cover most of my technical bio in my resume (below), as well as on my LinkedIn profile.';
-      document.getElementById('about-par2').innerHTML = "Let's get right into some examples of my work. Check out my portfolio and resume below, as well as the links in the contact section.";
+      document.getElementById('about-par2').innerHTML = "What did not fit in my one page resume you ask? I was born and raised in Prague (CZE) where I received my BSc and my Master's curriculum was composed of three universities: KSU (USA), CTU (CZE), UFPA (BRA).";
+      document.getElementById('about-par3').innerHTML = "I love my current position of a Data Scientist as I get to work with a good amount of data and have startUp-like responsibilites (learn fast, do all kinds of things in a tiny team), all of that on a Hadoop cluster.";
+      document.getElementById('about-par4').innerHTML = "I currently have a legal permission to live and work in the EU and Brazil. Regarding languages, Czech is my native and I dominate English and Portuguese on an almost-native level.";
+       
+      document.getElementById('about-par5').innerHTML = "Let's get right into some examples of my work. Check out my portfolio and resume below, as well as the links in the contact section.";
       
       document.getElementById('contactHeading').innerHTML = 'Get In Touch!';
-      document.getElementById('contactDescr').innerHTML = 'Interested to know more about me and my work? ... collaborate? ... hire?<br/>You can reach me through the following means.';
+      document.getElementById('contactDescr').innerHTML = 'Interested to know more about me and my work? ... collaborate? ... hire?<br/>Make sure to reach out to me.';
       document.getElementById('aEmail').innerHTML = myEmail;
       document.getElementById('aEmail').href = 'mailto:' + myEmail;
       document.getElementById('pPhoneNr').innerHTML = myPhoneBR;
@@ -52,11 +56,17 @@
       document.getElementById('aHeadlineContinue').innerHTML = 'Continue';
       // document.getElementById('pSubHeadline').innerHTML = 'I am a Software Developer with passion for Artificial Intelligence and software innovations in general!';
       // document.getElementById('pSubHeadline').innerHTML = 'I am a Software Developer with passion for Artificial Intelligence and software innovations in general!';
-      document.getElementById('h2DownloadResume').innerHTML = 'Download my Resume in .pdf / Baixa o meu currículo em .pdf';
+      document.getElementById('h2DownloadResume').innerHTML = 'Download my Resume in .pdf | Baixa o meu currículo em .pdf';
       document.getElementById('aDownloadResumeEng').innerHTML = 'English Version';
       document.getElementById('aDownloadResumeEng').href = myResumePathEng;
       document.getElementById('aDownloadResumePor').innerHTML = 'Versão em Português';
       document.getElementById('aDownloadResumePor').href = myResumePathPor;
+
+      hoverTextCopy = 'copy';
+      document.getElementById('hoverTextCopy1').innerHTML = hoverTextCopy;
+      document.getElementById('hoverTextCopy2').innerHTML = hoverTextCopy;
+      document.getElementById('hoverTextCopy3').innerHTML = hoverTextCopy;
+      document.getElementById('hoverTextCopy4').innerHTML = hoverTextCopy;
 
       // document.getElementById('aShowHideResume').innerHTML = 'Show Here';
       // document.getElementById('aShowHideResume').style.color = blackColorUsed;
