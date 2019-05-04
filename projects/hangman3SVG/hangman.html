@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Hangman</title>
+		<meta charset="utf-8">
+		<script src="https://code.jquery.com/jquery-2.1.1.js" type="text/javascript"></script>
+		<script src="words.js" type="text/javascript"></script>
+		<script src="hangman.js" type="text/javascript"></script>
+		<link href="hangman.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1>Hangman!</h1>
+		<h2 id="status"></h2>
+		<p>Pick your letters:</p>
+		<table id="letters">
+			<tr>
+				<td id='A' class='letter' data-picked='false'>A</td>
+				<td id='B' class='letter' data-picked='false'>B</td>
+				<td id='C' class='letter' data-picked='false'>C</td>
+				<td id='D' class='letter' data-picked='false'>D</td>
+				<td id='E' class='letter' data-picked='false'>E</td>
+				<td id='F' class='letter' data-picked='false'>F</td>
+				<td id='G' class='letter' data-picked='false'>G</td>
+				<td id='H' class='letter' data-picked='false'>H</td>
+				<td id='I' class='letter' data-picked='false'>I</td>
+				<td id='J' class='letter' data-picked='false'>J</td>
+				<td id='K' class='letter' data-picked='false'>K</td>
+				<td id='L' class='letter' data-picked='false'>L</td>
+				<td id='M' class='letter' data-picked='false'>M</td>
+				<td id='N' class='letter' data-picked='false'>N</td>
+				<td id='O' class='letter' data-picked='false'>O</td>
+				<td id='P' class='letter' data-picked='false'>P</td>
+				<td id='Q' class='letter' data-picked='false'>Q</td>
+				<td id='R' class='letter' data-picked='false'>R</td>
+				<td id='S' class='letter' data-picked='false'>S</td>
+				<td id='T' class='letter' data-picked='false'>T</td>
+				<td id='U' class='letter' data-picked='false'>U</td>
+				<td id='V' class='letter' data-picked='false'>V</td>
+				<td id='W' class='letter' data-picked='false'>W</td>
+				<td id='X' class='letter' data-picked='false'>X</td>
+				<td id='Y' class='letter' data-picked='false'>Y</td>
+				<td id='Z' class='letter' data-picked='false'>Z</td>
+			</tr>
+		</table>
+		<p>To spell the word:</p>
+		<table>
+          <tr id="word"></tr>
+		</table>
+		<p>But don't hang your man!</p>
+		<svg viewBox="0 0 120 120" version="1.1"
+		xmlns="http://www.w3.org/2000/svg">
+		<circle id="circ" cx="10" cy="10" r="7" fill="red"/>
+		</svg>
+		<p>
+			<a id="restart" href="#">Restart</a>
+		</p>
+	</body>
+</html>

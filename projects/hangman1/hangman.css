@@ -1,0 +1,29 @@
+td {
+  width: 25px;
+  margin: 5px;
+  text-align: center;
+}
+
+#word td {
+  border-bottom: solid 1px black;
+}
+
+#word td.special {
+  border-bottom: none;
+}
+
+#letters td {
+  cursor: pointer;
+}
+
+#letters td:hover {
+  text-decoration: underline;
+  color: green;
+  font-weight: bold;
+}
+
+#letters td.picked {
+  text-decoration: line-through;
+  color: gray;
+  cursor: auto;
+}
