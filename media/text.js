@@ -26,10 +26,8 @@
 
       addLoadEvent(function() {  
       document.getElementById('aPageTop').innerHTML = '<i class="fa fa-home"></i>';
-      document.getElementById('headlinePreName').innerHTML = 'My name is';
       document.getElementById('headlineName').innerHTML = myFullName;
-      document.getElementById('headlinePostName').innerHTML = 'and';
-      document.getElementById('headline').innerHTML = 'I <i class="fa fa-heart"></i> AI';
+      document.getElementById('headline').innerHTML = 'Artificial Intelligence | Data Science | Machine Learning | Big Data';
       
       document.getElementById('aboutHeading').innerHTML = "About";
       document.getElementById('about-par1').innerHTML = 'I am a Machine Learning Developer / Data Scientist and a former Software Engineer. I have a passion for Artificial Intelligence, for leveraging the power of algorithms, as well as for innovations through software in general. I cover most of my technical bio in my resume (below), as well as on my LinkedIn profile.';
@@ -91,9 +89,33 @@
       
       document.getElementById('project2category').innerHTML = 'TensorFlow.js';
       document.getElementById('project2name').innerHTML = 'Simple Linear Regression model purely in your browser';
-      document.getElementById('aProject2').href = 'TF.js-LinearRegression';
+      document.getElementById('aProject2').href = 'projects/TF.js-LinearRegression';
       document.getElementById('imgProject2').src = 'media/img/portfolio/thumbnails/linearRegression.png';
 
+      document.getElementById('project3category').innerHTML = 'Games';
+      document.getElementById('project3name').innerHTML = 'Platformer (source at github.com/ThaddeusT/Platformer)';
+      document.getElementById('aProject3').href = 'projects/Platformer/Platformer/platformer.html';
+      document.getElementById('imgProject3').src = 'media/img/portfolio/thumbnails/Platformer.png';
+
+      document.getElementById('project4category').innerHTML = 'Games';
+      document.getElementById('project4name').innerHTML = 'Heli Attack';
+      document.getElementById('aProject4').href = 'projects/HeliAttack/helicopter.html';
+      document.getElementById('imgProject4').src = 'media/img/portfolio/thumbnails/HeliAttack.png';
+
+      document.getElementById('project5category').innerHTML = 'Games';
+      document.getElementById('project5name').innerHTML = 'Light Cycles';
+      document.getElementById('aProject5').href = 'projects/Light_Cycles/light_cycles.html';
+      document.getElementById('imgProject5').src = 'media/img/portfolio/thumbnails/LightCycles.png';
+
+      document.getElementById('project6category').innerHTML = 'Games';
+      document.getElementById('project6name').innerHTML = 'Asteroids';
+      document.getElementById('aProject6').href = 'projects/asteroids/asteroids.html';
+      document.getElementById('imgProject6').src = 'media/img/portfolio/thumbnails/Asteroids.png';
+
+      document.getElementById('project7category').innerHTML = 'Games';
+      document.getElementById('project7name').innerHTML = '';
+      document.getElementById('aProject7').href = 'projects/';
+      document.getElementById('imgProject7').src = 'media/img/portfolio/thumbnails/linearRegression.png';
       // document.getElementById('').innerHTML = '';
 
         });
