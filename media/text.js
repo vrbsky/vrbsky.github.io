@@ -17,6 +17,7 @@
       var myPhoneBR = '+55 (91) 99388-7307';
       var myResumePathEng = 'media/pdf/Vrbsky_resume.pdf';
       var myResumePathPor = 'media/pdf/Vrbsky_curriculo.pdf';
+      var myResumePathPorProfessor = 'media/pdf/Vrbsky_curriculo_professor.pdf';
       var myFullName = 'Ladislav Vrbsky';
 
       var blackColorUsed = "#212529";
@@ -32,10 +33,10 @@
       document.getElementById('aboutHeading').innerHTML = "About";
       document.getElementById('about-par1').innerHTML = 'I am a Machine Learning Developer / Data Scientist and a former Software Engineer. I have a passion for Artificial Intelligence, for leveraging the power of algorithms, as well as for innovations through software in general. I cover most of my technical bio in my resume (below), as well as on my LinkedIn profile.';
       document.getElementById('about-par2').innerHTML = "What did not fit in my one page resume you ask? I was born and raised in Prague (CZE) where I received my BSc and my Master's curriculum was composed of three universities: KSU (USA), CTU (CZE), UFPA (BRA).";
-      document.getElementById('about-par3').innerHTML = "I love my current position of a Data Scientist as I get to work with a good amount of data and have startUp-like responsibilites (learn fast, do all kinds of things in a tiny team), all of that on a Hadoop cluster.";
-      document.getElementById('about-par4').innerHTML = "I currently have a legal permission to live and work in the EU and Brazil. Regarding languages, Czech is my native and I dominate English and Portuguese on an almost-native level.";
+      document.getElementById('about-par3').innerHTML = "I love my current position of a Data Scientist as I get to work with a good amount of data and have startUp-like responsibilites (learn fast, do all kinds of things in a rather small team, have full responsibility of projects).";
+      document.getElementById('about-par4').innerHTML = "I currently have a legal permission to live and work in the EU and Brazil. Regarding languages, Czech is my native and I dominate English and Portuguese on an almost-native level. I even teach English at my current company.";
        
-      document.getElementById('about-par5').innerHTML = "Let's get right into some examples of my work. Check out my portfolio and resume below, as well as the links in the contact section.";
+      document.getElementById('about-par5').innerHTML = "Below are some examples of my work or work I did in a team. Check out my portfolio and resume below, as well as the links in the contact section.";
       
       document.getElementById('contactHeading').innerHTML = 'Get In Touch!';
       document.getElementById('contactDescr').innerHTML = 'Interested to know more about me and my work? ... collaborate? ... hire?<br/>Make sure to reach out to me.';
@@ -59,6 +60,12 @@
       document.getElementById('aDownloadResumeEng').href = myResumePathEng;
       document.getElementById('aDownloadResumePor').innerHTML = 'Versão em Português';
       document.getElementById('aDownloadResumePor').href = myResumePathPor;
+      document.getElementById('h4CurriculoProfessor').innerHTML = 'Em Belém sou também disponível como o professor universitário na minha área (AI/ML/DS/CS)';
+      document.getElementById('aDownloadResumePorProfessor').innerHTML = 'Versão Professor';
+      document.getElementById('aDownloadResumePorProfessor').href = myResumePathPorProfessor;
+      aDownloadResumePorProfessor
+      document.getElementById('WhatsAppLogo').href = "https://api.whatsapp.com/send?phone=5591993887307";
+      //document.getElementById('WhatsAppSpan').innerHTML = 'Text me on WhatsApp';
 
       hoverTextCopy = 'copy';
       document.getElementById('hoverTextCopy1').innerHTML = hoverTextCopy;
