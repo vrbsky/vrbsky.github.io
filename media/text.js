@@ -99,30 +99,37 @@
       document.getElementById('aProject2').href = 'projects/TF.js-LinearRegression';
       document.getElementById('imgProject2').src = 'media/img/portfolio/thumbnails/linearRegression.png';
 
-      document.getElementById('project3category').innerHTML = 'Games';
-      document.getElementById('project3name').innerHTML = 'Platformer (source at github.com/ThaddeusT/Platformer)';
-      document.getElementById('aProject3').href = 'projects/Platformer/Platformer/platformer.html';
-      document.getElementById('imgProject3').src = 'media/img/portfolio/thumbnails/Platformer.png';
-
+      document.getElementById('project3category').innerHTML = 'BI - Business Intelligence';
+      document.getElementById('project3name').innerHTML = 'Power BI Dashboard - Sales';
+      document.getElementById('aProject3').href = 'projects/PowerBI_AWC/dashboard.html';
+      document.getElementById('imgProject3').src = 'media/img/portfolio/thumbnails/PowerBI_AWC_1.png';
+      
       document.getElementById('project4category').innerHTML = 'Games';
-      document.getElementById('project4name').innerHTML = 'Heli Attack';
-      document.getElementById('aProject4').href = 'projects/HeliAttack/helicopter.html';
-      document.getElementById('imgProject4').src = 'media/img/portfolio/thumbnails/HeliAttack.png';
+      document.getElementById('project4name').innerHTML = 'Platformer (source at github.com/ThaddeusT/Platformer)';
+      document.getElementById('aProject4').href = 'projects/Platformer/Platformer/platformer.html';
+      document.getElementById('imgProject4').src = 'media/img/portfolio/thumbnails/Platformer.png';
 
       document.getElementById('project5category').innerHTML = 'Games';
-      document.getElementById('project5name').innerHTML = 'Light Cycles';
-      document.getElementById('aProject5').href = 'projects/Light_Cycles/light_cycles.html';
-      document.getElementById('imgProject5').src = 'media/img/portfolio/thumbnails/LightCycles.png';
+      document.getElementById('project5name').innerHTML = 'Heli Attack';
+      document.getElementById('aProject5').href = 'projects/HeliAttack/helicopter.html';
+      document.getElementById('imgProject5').src = 'media/img/portfolio/thumbnails/HeliAttack.png';
 
       document.getElementById('project6category').innerHTML = 'Games';
-      document.getElementById('project6name').innerHTML = 'Asteroids';
-      document.getElementById('aProject6').href = 'projects/asteroids/asteroids.html';
-      document.getElementById('imgProject6').src = 'media/img/portfolio/thumbnails/Asteroids.png';
+      document.getElementById('project6name').innerHTML = 'Light Cycles';
+      document.getElementById('aProject6').href = 'projects/Light_Cycles/light_cycles.html';
+      document.getElementById('imgProject6').src = 'media/img/portfolio/thumbnails/LightCycles.png';
 
       document.getElementById('project7category').innerHTML = 'Games';
-      document.getElementById('project7name').innerHTML = '';
-      document.getElementById('aProject7').href = 'projects/';
-      document.getElementById('imgProject7').src = 'media/img/portfolio/thumbnails/linearRegression.png';
+      document.getElementById('project7name').innerHTML = 'Asteroids';
+      document.getElementById('aProject7').href = 'projects/asteroids/asteroids.html';
+      document.getElementById('imgProject7').src = 'media/img/portfolio/thumbnails/Asteroids.png';
+    
       // document.getElementById('').innerHTML = '';
-
-        });
+      
+//      <iframe width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=8a52c438-70a6-45c3-8dd2-cffa6e7c54bb&autoAuth=true&ctid=e5e9d8fd-e8df-4107-8326-0c228996f7d3&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+     /*  document.getElementById('PowerBI_AWC_Dashboard').width="1140"
+      document.getElementById('PowerBI_AWC_Dashboard').height="541.25"
+      document.getElementById('PowerBI_AWC_Dashboard').src="https://app.powerbi.com/reportEmbed?reportId=8a52c438-70a6-45c3-8dd2-cffa6e7c54bb&autoAuth=true&ctid=e5e9d8fd-e8df-4107-8326-0c228996f7d3&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D"
+      document.getElementById('PowerBI_AWC_Dashboard').frameborder="0"
+      document.getElementById('PowerBI_AWC_Dashboard').allowFullScreen="true" */
+});
