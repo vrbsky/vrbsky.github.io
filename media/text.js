@@ -28,15 +28,15 @@
       addLoadEvent(function() {  
       document.getElementById('aPageTop').innerHTML = '<i class="fa fa-home"></i>';
       document.getElementById('headlineName').innerHTML = myFullName;
-      document.getElementById('headline').innerHTML = 'Artificial Intelligence | Data Science | Machine Learning | Big Data';
+      document.getElementById('headline').innerHTML = 'Data Science | Machine Learning Engineering | AI/ML | Cloud | Big Data';
       
       document.getElementById('aboutHeading').innerHTML = "About";
-      document.getElementById('about-par1').innerHTML = 'I am a Machine Learning Developer / Data Scientist and a former Software Engineer. I have a passion for Artificial Intelligence, for leveraging the power of algorithms, as well as for innovations through software in general. I cover most of my technical bio in my resume (below), as well as on my LinkedIn profile.';
-      document.getElementById('about-par2').innerHTML = "What did not fit in my one page resume you ask? I was born and raised in Prague (CZE) where I received my BSc and my Master's curriculum was composed of three universities: KSU (USA), CTU (CZE), UFPA (BRA).";
-      document.getElementById('about-par3').innerHTML = "I love my current position of a Data Scientist as I get to work with a good amount of data and have startUp-like responsibilites (learn fast, do all kinds of things in a rather small team, have full responsibility of projects).";
-      document.getElementById('about-par4').innerHTML = "I currently have a legal permission to live and work in the EU and Brazil. Regarding languages, Czech is my native and I dominate English and Portuguese on an almost-native level. I even teach English at my current company.";
+      document.getElementById('about-par1').innerHTML = 'I am a Machine Learning Developer / Data Scientist and a former Software Engineer. I am passionate for Artificial Intelligence, for leveraging the power of algorithms, as well as for innovations through software in general. I cover most of my technical bio in my resume (below), as well as on my LinkedIn profile.';
+      document.getElementById('about-par2').innerHTML = "What did not fit in my one page resume? I was born and raised in Prague (CZE) where I received my BSc and my Master's curriculum was composed of three universities: KSU (USA), CTU (CZE), UFPA (BRA).";
+      document.getElementById('about-par3').innerHTML = "I love my current position of a Data Scientist as I get to work with a good amount of data and have startUp-like responsibilites (learn fast, do all kinds of things in a rather small team, have full responsibility of projects). I also get to work on projects that leverage all three major cloud vendors (AWS, Azure, GCP), which is amazing.";
+      document.getElementById('about-par4').innerHTML = "I currently have a legal permission to live and work in the EU and Brazil. Regarding languages, Czech is my native and I dominate English and Portuguese on an almost-native level. I even teach English at the company I currently work at.";
        
-      document.getElementById('about-par5').innerHTML = "Below are some examples of my work or work I did in a team. Check out my portfolio and resume below, as well as the links in the contact section.";
+      document.getElementById('about-par5').innerHTML = "Below are some examples of work I did myself or in a team. Check out my portfolio and resume below, as well as the links in the contact section.";
       
       document.getElementById('contactHeading').innerHTML = 'Get In Touch!';
       document.getElementById('contactDescr').innerHTML = 'Interested to know more about me and my work? ... collaborate? ... hire?<br/>Make sure to reach out to me.';
