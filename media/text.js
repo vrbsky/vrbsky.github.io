@@ -60,10 +60,10 @@
       document.getElementById('aDownloadResumeEng').href = myResumePathEng;
       document.getElementById('aDownloadResumePor').innerHTML = 'Versão em Português';
       document.getElementById('aDownloadResumePor').href = myResumePathPor;
-      document.getElementById('h4CurriculoProfessor').innerHTML = 'Em Belém sou também disponível como o professor universitário na minha área (AI/ML/DS/CS)';
-      document.getElementById('aDownloadResumePorProfessor').innerHTML = 'Versão Professor';
-      document.getElementById('aDownloadResumePorProfessor').href = myResumePathPorProfessor;
-      aDownloadResumePorProfessor
+      //document.getElementById('h4CurriculoProfessor').innerHTML = 'Em Belém sou também disponível como o professor universitário na minha área (AI/ML/DS/CS)';
+      //document.getElementById('aDownloadResumePorProfessor').innerHTML = 'Versão Professor';
+      //document.getElementById('aDownloadResumePorProfessor').href = myResumePathPorProfessor;
+      //aDownloadResumePorProfessor
       document.getElementById('WhatsAppLogo').href = "https://api.whatsapp.com/send?phone=5591993887307";
       //document.getElementById('WhatsAppSpan').innerHTML = 'Text me on WhatsApp';
 
@@ -96,7 +96,7 @@
       
       document.getElementById('project2category').innerHTML = 'TensorFlow.js';
       document.getElementById('project2name').innerHTML = 'Simple Linear Regression model purely in your browser';
-      document.getElementById('aProject2').href = 'projects/TF.js-LinearRegression';
+      //document.getElementById('aProject2').href = 'projects/TF.js-LinearRegression';
       document.getElementById('imgProject2').src = 'media/img/portfolio/thumbnails/linearRegression.png';
 
       document.getElementById('project3category').innerHTML = 'BI - Business Intelligence';
