@@ -39,7 +39,7 @@
       document.getElementById('about-par5').innerHTML = "Below are some examples of work I did myself or in a team. Check out my portfolio and resume below, as well as the links in the contact section.";
       
       document.getElementById('contactHeading').innerHTML = 'Get In Touch!';
-      document.getElementById('contactDescr').innerHTML = 'Interested to know more about me and my work? ... collaborate? ... hire?<br/>Make sure to reach out to me.';
+      document.getElementById('contactDescr').innerHTML = 'Interested to know more about me and my work? ... contract? ... hire?<br/>Make sure to reach out.';
       document.getElementById('aEmail').innerHTML = myEmail;
       document.getElementById('aEmail').href = 'mailto:' + myEmail;
       document.getElementById('pPhoneNr').innerHTML = myPhoneBR;
@@ -86,7 +86,7 @@
       //   }
       // };
       // document.getElementById('pdfObjectIframe').data = myResumePath;
-
+      document.getElementById('portfolioHeading').innerHTML = 'More Content';
       document.getElementById('project1category').innerHTML = 'Publications';
       document.getElementById('project1name').innerHTML = 'See my published work, including MS and BS thesis';
       document.getElementById('aProject1').href = 'https://scholar.google.com.br/citations?hl=en&user=vyvNl6YAAAAJ';
