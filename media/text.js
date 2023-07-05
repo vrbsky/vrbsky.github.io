@@ -65,7 +65,7 @@
       //document.getElementById('aDownloadResumePorProfessor').innerHTML = 'Versão Professor';
       //document.getElementById('aDownloadResumePorProfessor').href = myResumePathPorProfessor;
       //aDownloadResumePorProfessor
-      document.getElementById('WhatsAppLogo').href = "https://api.whatsapp.com/send?phone=5591993887307";
+      document.getElementById('WhatsAppLogo').href = 'https://api.whatsapp.com/send?phone=5591993887307';
       //document.getElementById('WhatsAppSpan').innerHTML = 'Text me on WhatsApp';
 
       hoverTextCopy = 'copy';
