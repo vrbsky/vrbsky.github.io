@@ -36,7 +36,7 @@
       document.getElementById('about-par3').innerHTML = "I love my current position of a Data professional as I get to work with a good amount of data and have startup-like responsibilites (learn fast, wear many hats in a rather small team and have full responsibility of projects as well as my team). I also get to work on projects that leverage AWS and GCP, which is amazing.";
       document.getElementById('about-par4').innerHTML = "I currently have a legal permission to live and work in the EU and Brazil. Regarding languages, Czech is my native and I dominate English and Portuguese on an almost-native level. I even useed to teach English at one point.";
        
-      document.getElementById('about-par5').innerHTML = "Below are some examples of work I did myself or in a team. Check out my portfolio and resume below, as well as the links in the contact section.";
+      // document.getElementById('about-par5').innerHTML = "Below are some examples of work I did myself or in a team. Check out my portfolio and resume below, as well as the links in the contact section.";
       
       document.getElementById('contactHeading').innerHTML = 'Get In Touch!';
       document.getElementById('contactDescr').innerHTML = 'Interested to know more about me and my work? ... contract? ... hire?<br/>Make sure to reach out.';
