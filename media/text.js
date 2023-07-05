@@ -33,8 +33,8 @@
       document.getElementById('aboutHeading').innerHTML = "About";
       document.getElementById('about-par1').innerHTML = 'I am a Machine Learning Developer / Data Scientist and a former Software Engineer. I am passionate for Artificial Intelligence, for leveraging the power of algorithms, as well as for innovations through software in general. I cover most of my technical bio in my resume (below), as well as on my LinkedIn profile.';
       document.getElementById('about-par2').innerHTML = "What did not fit in my one page resume? I was born and raised in Prague (CZE) where I received my BSc and my Master's curriculum was composed of three universities: KSU (USA), CTU (CZE), UFPA (BRA).";
-      document.getElementById('about-par3').innerHTML = "I love my current position of a Data Scientist as I get to work with a good amount of data and have startUp-like responsibilites (learn fast, do all kinds of things in a rather small team, have full responsibility of projects). I also get to work on projects that leverage all three major cloud vendors (AWS, Azure, GCP), which is amazing.";
-      document.getElementById('about-par4').innerHTML = "I currently have a legal permission to live and work in the EU and Brazil. Regarding languages, Czech is my native and I dominate English and Portuguese on an almost-native level. I even teach English at the company I currently work at.";
+      document.getElementById('about-par3').innerHTML = "I love my current position of a Data professional as I get to work with a good amount of data and have startup-like responsibilites (learn fast, wear many hats in a rather small team and have full responsibility of projects as well as my team). I also get to work on projects that leverage AWS and GCP, which is amazing.";
+      document.getElementById('about-par4').innerHTML = "I currently have a legal permission to live and work in the EU and Brazil. Regarding languages, Czech is my native and I dominate English and Portuguese on an almost-native level. I even useed to teach English at one point.";
        
       document.getElementById('about-par5').innerHTML = "Below are some examples of work I did myself or in a team. Check out my portfolio and resume below, as well as the links in the contact section.";
       
@@ -55,7 +55,8 @@
       document.getElementById('aHeadlineContinue').innerHTML = 'Continue';
       // document.getElementById('pSubHeadline').innerHTML = 'I am a Software Developer with passion for Artificial Intelligence and software innovations in general!';
       // document.getElementById('pSubHeadline').innerHTML = 'I am a Software Developer with passion for Artificial Intelligence and software innovations in general!';
-      document.getElementById('h2DownloadResume').innerHTML = 'Download my Resume in .pdf | Baixa o meu currículo em .pdf';
+      // document.getElementById('h2DownloadResume').innerHTML = 'Download my Resume in .pdf | Baixa o meu currículo em .pdf';
+      document.getElementById('h2DownloadResume').innerHTML = 'Download my Resume in PDF';
       document.getElementById('aDownloadResumeEng').innerHTML = 'English Version';
       document.getElementById('aDownloadResumeEng').href = myResumePathEng;
       document.getElementById('aDownloadResumePor').innerHTML = 'Versão em Português';
@@ -86,43 +87,43 @@
       //   }
       // };
       // document.getElementById('pdfObjectIframe').data = myResumePath;
-      document.getElementById('portfolioHeading').innerHTML = 'More Content';
-      document.getElementById('project1category').innerHTML = 'Publications';
-      document.getElementById('project1name').innerHTML = 'See my published work, including MS and BS thesis';
-      document.getElementById('aProject1').href = 'https://scholar.google.com.br/citations?hl=en&user=vyvNl6YAAAAJ';
-      document.getElementById('imgProject1').src = 'media/img/portfolio/thumbnails/publications.png';
+      // document.getElementById('portfolioHeading').innerHTML = 'More Content';
+      // document.getElementById('project1category').innerHTML = 'Publications';
+      // document.getElementById('project1name').innerHTML = 'See my published work, including MS and BS thesis';
+      // document.getElementById('aProject1').href = 'https://scholar.google.com.br/citations?hl=en&user=vyvNl6YAAAAJ';
+      // document.getElementById('imgProject1').src = 'media/img/portfolio/thumbnails/publications.png';
 //      document.getElementById('imgProject1').style = 'padding: 13% 33%'; // 650 x 350 vs 128 x 128
      // document.getElementById('imgProject1').style = 'display: block; margin-left: auto; margin-right: auto; margin-top: 5%; marign-bottom: 5%;';// width: 50%;';
       
-      document.getElementById('project2category').innerHTML = 'TensorFlow.js';
-      document.getElementById('project2name').innerHTML = 'Simple Linear Regression model purely in your browser';
-      //document.getElementById('aProject2').href = 'projects/TF.js-LinearRegression';
-      document.getElementById('imgProject2').src = 'media/img/portfolio/thumbnails/linearRegression.png';
+      // document.getElementById('project2category').innerHTML = 'TensorFlow.js';
+      // document.getElementById('project2name').innerHTML = 'Simple Linear Regression model purely in your browser';
+      // //document.getElementById('aProject2').href = 'projects/TF.js-LinearRegression';
+      // document.getElementById('imgProject2').src = 'media/img/portfolio/thumbnails/linearRegression.png';
 
-      document.getElementById('project3category').innerHTML = 'BI - Business Intelligence';
-      document.getElementById('project3name').innerHTML = 'Power BI Dashboard - Sales';
-      document.getElementById('aProject3').href = 'projects/PowerBI_AWC/dashboard.html';
-      document.getElementById('imgProject3').src = 'media/img/portfolio/thumbnails/PowerBI_AWC_1.png';
+      // document.getElementById('project3category').innerHTML = 'BI - Business Intelligence';
+      // document.getElementById('project3name').innerHTML = 'Power BI Dashboard - Sales';
+      // document.getElementById('aProject3').href = 'projects/PowerBI_AWC/dashboard.html';
+      // document.getElementById('imgProject3').src = 'media/img/portfolio/thumbnails/PowerBI_AWC_1.png';
       
-      document.getElementById('project4category').innerHTML = 'Games';
-      document.getElementById('project4name').innerHTML = 'Platformer (source at github.com/ThaddeusT/Platformer)';
-      document.getElementById('aProject4').href = 'projects/Platformer/Platformer/platformer.html';
-      document.getElementById('imgProject4').src = 'media/img/portfolio/thumbnails/Platformer.png';
+      // document.getElementById('project4category').innerHTML = 'Games';
+      // document.getElementById('project4name').innerHTML = 'Platformer (source at github.com/ThaddeusT/Platformer)';
+      // document.getElementById('aProject4').href = 'projects/Platformer/Platformer/platformer.html';
+      // document.getElementById('imgProject4').src = 'media/img/portfolio/thumbnails/Platformer.png';
 
-      document.getElementById('project5category').innerHTML = 'Games';
-      document.getElementById('project5name').innerHTML = 'Heli Attack';
-      document.getElementById('aProject5').href = 'projects/HeliAttack/helicopter.html';
-      document.getElementById('imgProject5').src = 'media/img/portfolio/thumbnails/HeliAttack.png';
+      // document.getElementById('project5category').innerHTML = 'Games';
+      // document.getElementById('project5name').innerHTML = 'Heli Attack';
+      // document.getElementById('aProject5').href = 'projects/HeliAttack/helicopter.html';
+      // document.getElementById('imgProject5').src = 'media/img/portfolio/thumbnails/HeliAttack.png';
 
-      document.getElementById('project6category').innerHTML = 'Games';
-      document.getElementById('project6name').innerHTML = 'Light Cycles';
-      document.getElementById('aProject6').href = 'projects/Light_Cycles/light_cycles.html';
-      document.getElementById('imgProject6').src = 'media/img/portfolio/thumbnails/LightCycles.png';
+      // document.getElementById('project6category').innerHTML = 'Games';
+      // document.getElementById('project6name').innerHTML = 'Light Cycles';
+      // document.getElementById('aProject6').href = 'projects/Light_Cycles/light_cycles.html';
+      // document.getElementById('imgProject6').src = 'media/img/portfolio/thumbnails/LightCycles.png';
 
-      document.getElementById('project7category').innerHTML = 'Games';
-      document.getElementById('project7name').innerHTML = 'Asteroids';
-      document.getElementById('aProject7').href = 'projects/asteroids/asteroids.html';
-      document.getElementById('imgProject7').src = 'media/img/portfolio/thumbnails/Asteroids.png';
+      // document.getElementById('project7category').innerHTML = 'Games';
+      // document.getElementById('project7name').innerHTML = 'Asteroids';
+      // document.getElementById('aProject7').href = 'projects/asteroids/asteroids.html';
+      // document.getElementById('imgProject7').src = 'media/img/portfolio/thumbnails/Asteroids.png';
     
       // document.getElementById('').innerHTML = '';
       
